@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "nombre": "Juan Pérez",
+      "email": "juan.perez@example.com",
+      "edad": 28,
+      "ciudad": "Madrid"
+    },
+    {
+      "id": 2,
+      "nombre": "María Rodríguez",
+      "email": "maria.rodriguez@example.com",
+      "edad": 35,
+      "ciudad": "Barcelona"
+    },
+    {
+      "id": 3,
+      "nombre": "Carlos García",
+      "email": "carlos.garcia@example.com",
+      "edad": 22,
+      "ciudad": "Valencia"
+    },
+    {
+      "id": 4,
+      "nombre": "Ana Martínez",
+      "email": "ana.martinez@example.com",
+      "edad": 41,
+      "ciudad": "Bilbao"
+    },
+    {
+      "id": 5,
+      "nombre": "Pedro Fernández",
+      "email": "pedro.fernandez@example.com",
+      "edad": 30,
+      "ciudad": "Sevilla"
+    }
+  ]
