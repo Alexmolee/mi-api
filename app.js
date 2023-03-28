@@ -14,10 +14,7 @@ try {
   console.error('Error al leer o parsear el archivo JSON:', err);
 }
 
-/*app.get("/", function(req,res){
-    //res.send("Hola");
-    res.sendFile(path.join(__dirname + "/public/index.html"))
-});*/
+
 
 app.get('/saludo', (req, res) => {
     res.send('¡Hola Mundo!');
