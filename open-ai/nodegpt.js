@@ -28,4 +28,5 @@ function crearTabla(data){
         contenido += "</tr>";
     }
     tabla.innerHTML += contenido;
+    
 }
