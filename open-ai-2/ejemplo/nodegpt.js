@@ -1,4 +1,4 @@
-const api_key = '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';
+const api_key = 'tu_api_key';
 fetch('https://api.openai.com/v1/models', {
   method: 'GET',
   headers: {
@@ -28,5 +28,5 @@ function crearTabla(data){
         contenido += "</tr>";
     }
     tabla.innerHTML += contenido;
-
+    
 }

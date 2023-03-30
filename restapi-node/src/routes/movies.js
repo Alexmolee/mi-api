@@ -8,6 +8,7 @@ router.get('/', (req,res) => {
     res.json(movies);
 });
 
+
 router.post('/', (req,res) => {
     const {title, director, year, rating } = req.body;
     if (title && director && year && rating) {
@@ -20,6 +21,7 @@ router.post('/', (req,res) => {
     }
    
 });
+
 
 router.put('/:id', (req,res) => {
     const {id} = req.params;
@@ -38,6 +40,7 @@ router.put('/:id', (req,res) => {
         res.status(500).json({error: 'There was an error.'});
     }
 });
+
 
 router.delete('/:id', (req,res) => {
     const {id} = req.params;
