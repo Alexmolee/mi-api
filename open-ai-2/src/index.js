@@ -15,7 +15,7 @@ app.use(express.json());
 
 //routes
 
-
+app.use('/api', require('./routes/chat'));
 app.use('/api', require('./routes/models'));
 app.use('/api', require('./routes/completions'));
 
